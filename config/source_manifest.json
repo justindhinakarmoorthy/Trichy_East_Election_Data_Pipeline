@@ -1,0 +1,104 @@
+{
+  "project": "trichy_east_election_pipeline",
+  "constituency_no": "141",
+  "constituency_name": "Tiruchirappalli East",
+  "databricks_base_volume": "/Volumes/workspace/elections/trichy_east",
+  "sources": [
+    {
+      "election_year": 2016,
+      "source_type": "boothwise_votes",
+      "file_name": "trichy_east_form20_boothwise_2016.pdf",
+      "relative_path": "2016/trichy_east_form20_boothwise_2016.pdf",
+      "format": "pdf",
+      "extraction_strategy": "pdf_text_layout"
+    },
+    {
+      "election_year": 2016,
+      "source_type": "candidate_totals",
+      "file_name": "trichy_east_candidate_totals_2016.pdf",
+      "relative_path": "2016/trichy_east_candidate_totals_2016.pdf",
+      "format": "pdf",
+      "extraction_strategy": "pdf_text"
+    },
+    {
+      "election_year": 2016,
+      "source_type": "candidate_list",
+      "file_name": "trichy_east_candidate_list_2016.pdf",
+      "relative_path": "2016/trichy_east_candidate_list_2016.pdf",
+      "format": "pdf",
+      "extraction_strategy": "pdf_text"
+    },
+    {
+      "election_year": 2016,
+      "source_type": "polling_booths",
+      "file_name": "trichy_east_polling_booths_2016.pdf",
+      "relative_path": "2016/trichy_east_polling_booths_2016.pdf",
+      "format": "pdf",
+      "extraction_strategy": "pdf_text_layout"
+    },
+    {
+      "election_year": 2021,
+      "source_type": "boothwise_votes",
+      "file_name": "trichy_east_form20_boothwise_2021.pdf",
+      "relative_path": "2021/trichy_east_form20_boothwise_2021.pdf",
+      "format": "pdf",
+      "extraction_strategy": "pdf_text_layout"
+    },
+    {
+      "election_year": 2021,
+      "source_type": "candidate_totals",
+      "file_name": "trichy_east_candidate_totals_2021.pdf",
+      "relative_path": "2021/trichy_east_candidate_totals_2021.pdf",
+      "format": "pdf",
+      "extraction_strategy": "ocr_required"
+    },
+    {
+      "election_year": 2021,
+      "source_type": "candidate_list",
+      "file_name": "trichy_east_candidate_list_2021.pdf",
+      "relative_path": "2021/trichy_east_candidate_list_2021.pdf",
+      "format": "pdf",
+      "extraction_strategy": "ocr_required"
+    },
+    {
+      "election_year": 2021,
+      "source_type": "polling_booths",
+      "file_name": "trichy_east_polling_booths_2021.pdf",
+      "relative_path": "2021/trichy_east_polling_booths_2021.pdf",
+      "format": "pdf",
+      "extraction_strategy": "pdf_text_layout"
+    },
+    {
+      "election_year": 2026,
+      "source_type": "boothwise_votes",
+      "file_name": "trichy_east_form20_boothwise_2026.pdf",
+      "relative_path": "2026/trichy_east_form20_boothwise_2026.pdf",
+      "format": "pdf",
+      "extraction_strategy": "pdf_text_layout"
+    },
+    {
+      "election_year": 2026,
+      "source_type": "candidate_totals",
+      "file_name": "trichy_east_candidate_totals_2026.csv",
+      "relative_path": "2026/trichy_east_candidate_totals_2026.csv",
+      "format": "csv",
+      "extraction_strategy": "csv_with_preamble_and_summary_rows"
+    },
+    {
+      "election_year": 2026,
+      "source_type": "candidate_list",
+      "file_name": "trichy_east_candidate_list_2026.csv",
+      "relative_path": "2026/trichy_east_candidate_list_2026.csv",
+      "format": "csv",
+      "extraction_strategy": "csv_single_quoted_field"
+    },
+    {
+      "election_year": 2026,
+      "source_type": "polling_booths",
+      "file_name": "trichy_east_polling_booths_2026.pdf",
+      "relative_path": "2026/trichy_east_polling_booths_2026.pdf",
+      "format": "pdf",
+      "extraction_strategy": "pdf_text_layout"
+    }
+  ]
+}
